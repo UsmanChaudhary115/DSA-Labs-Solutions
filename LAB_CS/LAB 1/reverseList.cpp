@@ -6,6 +6,5 @@ Node* reverseList(Node* head)
 		temp.addToHead(head->getData());
 		head = head->getNext();
 	}
-	cout << temp;
 	return temp.getHead();
 }
