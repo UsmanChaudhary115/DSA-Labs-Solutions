@@ -35,4 +35,7 @@ bool isPalindrom(List list)
 	{
 		return true;
 	}
+
+
+	//Have to be reconsidered
 }
