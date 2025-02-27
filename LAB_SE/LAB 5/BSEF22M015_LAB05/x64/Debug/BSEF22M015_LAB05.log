@@ -1,0 +1,78 @@
+﻿  Calculator.cpp
+  MAIN.cpp
+  Stack.cpp
+  Stack_Implmentation.cpp
+D:\DSA\LAB Solutions\LAB 5\Stack.cpp(25,23): error C2446: ':': no conversion from 'T' to 'int'
+D:\DSA\LAB Solutions\LAB 5\Stack.cpp(25,23): error C2446:         with
+D:\DSA\LAB Solutions\LAB 5\Stack.cpp(25,23): error C2446:         [
+D:\DSA\LAB Solutions\LAB 5\Stack.cpp(25,23): error C2446:             T=std::string
+D:\DSA\LAB Solutions\LAB 5\Stack.cpp(25,23): error C2446:         ]
+  (compiling source file 'Stack_Implmentation.cpp')
+      D:\DSA\LAB Solutions\LAB 5\Stack.cpp(25,23):
+      the template instantiation context (the oldest one first) is
+          D:\DSA\LAB Solutions\LAB 5\Stack_Implmentation.cpp(5,31):
+          see reference to class template instantiation 'Stack<std::string>' being compiled
+          D:\DSA\LAB Solutions\LAB 5\Stack.cpp(24,1):
+          while compiling class template member function 'T Stack<T>::top(void)'
+          with
+          [
+              T=std::string
+          ]
+  
+D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,11): error C2440: 'initializing': cannot convert from 'int' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  (compiling source file 'Stack_Implmentation.cpp')
+      D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,11):
+      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': no overloaded function could convert all the argument types
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33521\include\xstring(2559,5):
+          could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+              D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,11):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'int' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                  D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,13):
+                  Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33521\include\xstring(3137,5):
+          or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+              D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,11):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                  D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,13):
+                  Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33521\include\xstring(2589,5):
+          or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+          D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,11):
+          while trying to match the argument list '(int)'
+      D:\DSA\LAB Solutions\LAB 5\Stack.cpp(32,11):
+      the template instantiation context (the oldest one first) is
+          D:\DSA\LAB Solutions\LAB 5\Stack.cpp(29,1):
+          while compiling class template member function 'T Stack<T>::pop(void)'
+          with
+          [
+              T=std::string
+          ]
+  
+  String.cpp
+  Generating Code...
